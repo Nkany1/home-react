@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.presentation {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.cove img {
+  height: 30vh;
+}
+
+.introduction {
+  flex: 1;
+}
+
+.cover {
+  flex: 1;
+  padding: 0px 50px 0px 0px;
+}
+.intro-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.header h1 {
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  padding-bottom: 50px;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+.title h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 10px 50px 50px 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  #box {
+    display: flex;
+    column-gap: 10px;
+  }
+
+  .presentation {
+    flex-direction: column;
+    column-gap: 0px;
+  }
+
+  .section {
+    flex-direction: column;
+  }
+
+  .introduction {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .intro-text h1 {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .intro-text p {
+    font-size: 18px;
+  }
+
+  .cover img {
+    display: none;
+  }
+
+  .cove img {
+    margin-bottom: 30px;
+  }
+
+  .intro-text h2 {
+    font-size: 30px;
+  }
+}

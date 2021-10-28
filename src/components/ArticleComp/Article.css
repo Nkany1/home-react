@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.botton {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
